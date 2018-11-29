@@ -1,0 +1,15 @@
+// libraries
+bcrypt - for hashing passwords
+Joi - for validation
+jsonwebtoken - for JWT
+config - for environment variables
+lodash - for utility functions (optimized version of underscore) 
+mongoose - for mongoDB 
+
+// setting env variable on mac
+export "env_var_name" = something
+
+// tutorial notes
+1) set http headers after registering user
+2) information expert principle
+3) consistency v/s performance (when embedding documents in Mongo)

@@ -1,0 +1,75 @@
+.landing-page {
+    margin: 100px auto;
+    align-content: center
+}
+
+.login-form {
+    margin-top: 40px;
+}
+
+.form-container{
+    margin: auto;
+    width: 50%;
+}
+
+.task-add{
+    margin:20px auto;
+    width: 60%;
+}
+
+.task-list-container {
+    padding: 12px 0 12px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.task-menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-menu{
+    margin-left: 8px;
+}
+
+.card-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.card-task{
+    width: 12rem;
+    margin-left:24px;
+    margin-bottom: 12px;
+}
+
+.card-btn-group{
+    display: flex;
+    justify-content: space-around
+}
+
+.card-icon{
+    cursor: default;
+    font-size: 18px;
+}
+
+.edit-icon {
+    cursor: pointer;
+}
+
+.edit-btn-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-cancel-btn {
+    margin-left: 8px;
+}
